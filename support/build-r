@@ -39,6 +39,9 @@ export CPPFLAGS="-I$vendordir/glibc-2.7/string/ -I$vendordir/glibc-2.7/time"
 cd $basedir/R-$rversion/
 ./configure --prefix=$prefix --without-x && make && make install
 
+# SH: Install packages
+R -q -e "install.packages(c('ggplot2', 'plyr', 'reshape2', 'iterators', 'foreach', 'rjson'), repos='http://cran.r-project.org', dependencies=TRUE)"
+
 # remove unneeded files to make the output smaller
 cd $vendordir
 

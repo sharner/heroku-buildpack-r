@@ -16,7 +16,7 @@ LP_DIR=`cd $(dirname $0); cd ..; pwd`
 
 # config
 R_VERSION="2.15.1"
-S3_BUCKET="heroku-buildpack-r"
+S3_BUCKET="bc-heroku-buildpack-r"
 R_BINARIES="http://${S3_BUCKET}.s3.amazonaws.com/R-${R_VERSION}-binaries.tar.gz"
 VENDOR_DIR="$BUILD_DIR/vendor"
 R_HOME="$VENDOR_DIR/R"
