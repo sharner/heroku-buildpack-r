@@ -72,3 +72,41 @@ See the [guide](heroku-buildpack-r/tree/master/support/README.md) for building t
 ## Hacking
 To use this buildpack, fork it on Github.  Push up changes to your fork, then create a test app 
 with `--buildpack <your-github-url>` and push to it.
+
+## Extending in this Fork
+
+SH: extended this fork to prebuild some libraries:
+
+colorspace_1.1-1.tar.gz
+RColorBrewer_1.0-5.tar.gz
+dichromat_1.2-4.tar.gz
+munsell_0.3.tar.gz
+labeling_0.1.tar.gz
+SparseM_0.96.tar.gz
+sp_0.9-99.tar.gz
+mvtnorm_0.9-9992.tar.gz
+evaluate_0.4.2.tar.gz
+digest_0.5.2.tar.gz
+scales_0.2.1.tar.gz
+memoise_0.1.tar.gz
+proto_0.3-9.2.tar.gz
+quantreg_4.81.tar.gz
+Hmisc_3.9-3.tar.gz
+mapproj_1.1-8.3.tar.gz
+maps_2.2-6.tar.gz
+hexbin_1.26.0.tar.gz
+gpclib_1.5-1.tar.gz
+maptools_0.8-16.tar.gz
+multcomp_1.2-12.tar.gz
+testthat_0.7.tar.gz
+abind_1.4-0.tar.gz
+itertools_0.1-1.tar.gz
+stringr_0.6.1.tar.gz
+RUnit_0.4.26.tar.gz
+randomForest_4.6-6.tar.gz
+ggplot2_0.9.1.tar.gz
+plyr_1.7.1.tar.gz
+reshape2_1.2.1.tar.gz
+iterators_1.0.6.tar.gz
+foreach_1.4.0.tar.gz
+rjson_0.2.9.tar.gz
