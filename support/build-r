@@ -18,7 +18,7 @@ curl http://gfortran.com/download/x86_64/snapshots/gcc-4.3.tar.xz -o gcc-4.3.tar
 curl http://archive.ubuntu.com/ubuntu/pool/main/g/glibc/glibc_2.7.orig.tar.gz -o glibc_2.7.tar.gz
 
 # download R sources and unpack
-curl http://cran.r-project.org/src/base/R-2/R-$rversion.tar.gz -o R-$rversion.tar.gz
+curl https://s3.amazonaws.com/bc-heroku-buildpack-r/R-$rversion.tgz -o R-$rversion.tar.gz
 tar xzf R-$rversion.tar.gz
 
 # create output directories
